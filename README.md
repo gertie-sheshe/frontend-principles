@@ -11,7 +11,7 @@ Note: This is a living document and will continue to be edited. All relevant res
 
 ## Table of Contents
 
- * [Accessibility and Inclusion](#installation)
+ * [Accessibility and Inclusion](#accessibility-and-inclusion)
    * [Accessibility Guidelines](#accessibility-guidelines)
       * [Perceivable](#perceivable)
       * [Operable](#operable)
@@ -22,7 +22,7 @@ Note: This is a living document and will continue to be edited. All relevant res
    * [Accessible Form Design Patterns](#accessible-form-design-patterns)
    * [Inclusive Design Principles](#inclusive-design-principles)
       * [Provide Comparable Experience](#provide-comparable-experience)
-      * [Consider the Situation](#consider-the situation)
+      * [Consider the Situation](#consider-the-situation)
       * [Be Consistent](#be-consistent)
       * [Give Control](#give-control)
       * [Offer Choice](#offer-choice)
@@ -74,3 +74,35 @@ Note: This is a living document and will continue to be edited. All relevant res
   * [Testing](#general-testing)
     * [Testing for Accessibility](#accessibility-testing)
     * [Testing for Constratints](#constraints-testing)
+    
+ ## Accessibility and Inclusion
+ ### Accessibility Guidelines
+ W3C provides a list of guidelines that ensure the web is accessible to everyone. These guidelines fall into four principles:
+ 
+#### Perceivable.
+Information and user interface components must be presentable to users in ways they can perceive.
+1. [Text Alternatives:](https://www.w3.org/TR/WCAG22/#text-alternatives) Provide text alternatives for all non text content.
+2. [Time Based Media:](https://www.w3.org/TR/WCAG22/#time-based-media) Provide alternatives for time based media.
+3. [Adaptable:](https://www.w3.org/TR/WCAG22/#adaptable) Create content that can be presented in different ways without losing information or structure.
+4. [Distinguishable:](https://www.w3.org/TR/WCAG22/#distinguishable) Make it easy for users to see and hear content.
+
+#### Operable
+User Interface components and navigation must be operable.
+
+5. [Keyboard Accessible:](https://www.w3.org/TR/WCAG22/#keyboard-accessible) Make all functionality accessible via a keyboard.
+6. [Enough Time:](https://www.w3.org/TR/WCAG22/#enough-time) Provides users enough time to read and use content.
+7. [Seizures and Physical Reactions:](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions) Do not design content in a way that is known to cause seizures or physical reactions.
+8. [Navigable:](https://www.w3.org/TR/WCAG22/#navigable) Provide ways to help users navigate, find content and determine where they are.
+9. [Input Modalities:](https://www.w3.org/TR/WCAG22/#input-modalities) Make it easy for users to operate functionality through various inputs beyond the keyboard.
+
+#### Understandable.
+Information and operation of the user interface must be understandable.
+
+10. [Readable:](https://www.w3.org/TR/WCAG22/#readable) Make text content readable and understandable.
+11. [Predictable:](https://www.w3.org/TR/WCAG22/#predictable) Make web pages appear and operate in predictable ways.
+12. [Input Avoidance:](https://www.w3.org/TR/WCAG22/#input-assistance) Help users avoid and correct mistakes.
+
+#### Robust
+Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
+
+13. [Compatible:](https://www.w3.org/TR/WCAG22/#compatible) Maximize compatibility with current and future user agents, including assistive technologies.
