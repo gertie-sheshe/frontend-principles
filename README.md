@@ -106,3 +106,6 @@ Information and operation of the user interface must be understandable.
 Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
 
 13. [Compatible:](https://www.w3.org/TR/WCAG22/#compatible) Maximize compatibility with current and future user agents, including assistive technologies.
+
+### Accessibility Checklist
+#### The A11y Project Checklist
