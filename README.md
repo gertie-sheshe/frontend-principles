@@ -109,3 +109,89 @@ Content must be robust enough that it can be interpreted by a wide variety of us
 
 ### Accessibility Checklist
 #### The A11y Project Checklist
+##### Audio
+- Confirm Transcripts are available
+
+##### Appearance
+- Use a simple, straightforward and consistent layout.
+- Increase text size to 200% - is it still readable? 
+- Make sure color isn’t the only way information is conveyed. 
+- Make sure instructions are not visual or audio-only.
+
+##### Animation
+- Ensure animations are subtle and do not flash too much.
+- Provide a mechanism to pause background video.
+
+##### Content
+- Use plain language and avoid figures of speech, idioms and complicated metaphors.
+- Make sure that button, link and label texts/content are unique and descriptive.
+- Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.
+
+##### Color Contrast
+- Check the contrast for all texts and icons.
+- Check the contrasts of borders for input elements (checkboxes, radio buttons, text inputs etc)
+- Check text that overlaps images or video.
+
+##### Controls
+- Use the <a/> element for links and <button/> for buttons.
+- Ensure that links are recognizable as links.
+- Identify links that open in a new tab/window.
+- Provide a skip link and make sure that it is visible when focused.
+
+##### Forms
+- All inputs in a form are associated with a corresponding label element.
+- Associate input error messaging with the input it corresponds to.
+- Make sure that error, warning and success states are not visually communicated by just color.
+- Use fieldset and legend elements where appropriate.
+
+##### Headings
+- Use heading elements to introduce content.
+- Use only one h1 element per page or per view.
+- Heading elements should be written in a logical sequence.
+- Don’t skip heading levels.
+
+##### Images
+- Make sure that all img elements have an alt attribute.
+- Make sure that decorative images have a null alt attribute.
+- Provide a text alternative for complex images such as charts, graphs and maps.
+
+##### Keyboard
+- Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.
+- Check to see that keyboard focus order matches the visual layout.
+- Remove invisible focusable elements
+
+##### Lists
+- Use list elements (`ul`, `li` and `dl`) for list content
+
+##### Media
+- Make sure that media does not autoplay.
+- Ensure that media controls use appropriate markup.
+- Check to see that all media can be paused.
+
+##### Mobile and Touch
+- Remove horizontal scrolling.
+- Check that the site can be rotated to any orientation.
+- Ensure that button and link elements can be activated with ease.
+- Ensure sufficient space between interactive items in order to provide a scroll area.
+
+##### Tables
+- Use the `table` element to describe tabular data.
+- Use the `th` element for table headers (with appropriate scope attributes)
+- Use the `caption` element to provide a title for the table.
+
+##### Video
+- Confirm the presence of captions.
+- Remove seizure triggers.
+
+#### Resources
+- Checklist: https://www.a11yproject.com/checklist/
+- WCAG 2.2 Guidelines: https://www.w3.org/TR/WCAG22
+
+
+
+
+
+
+
+
+
