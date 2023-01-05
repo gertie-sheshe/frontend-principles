@@ -107,6 +107,8 @@ Content must be robust enough that it can be interpreted by a wide variety of us
 
 13. [Compatible:](https://www.w3.org/TR/WCAG22/#compatible) Maximize compatibility with current and future user agents, including assistive technologies.
 
+-------------------------
+
 ### Accessibility Checklist
 #### The A11y Project Checklist
 ##### Audio
@@ -187,9 +189,58 @@ Content must be robust enough that it can be interpreted by a wide variety of us
 - Checklist: https://www.a11yproject.com/checklist/
 - WCAG 2.2 Guidelines: https://www.w3.org/TR/WCAG22
 
+-------------------------
+
+### Accessible Form Design Patterns
+Currently reading the book [Form Design Patterns](https://formdesignpatterns.com/) by Adam Silver and populating my learnings here.
+
+### Inclusive Design Principles
+#### Provide Comparable Experience
+Interfaces should offer a similar experience for everyone so that people can complete tasks in a way that meets their needs without compromising the quality of the content.
+
+- Provide alternative e.g alt text, transcript, audio description, sign language, synchronized closed captions, screen reader notification
+
+#### 1. Consider the Situation
+Interfaces should provide a positive experience for users in any situation they may encounter it in.
+- Color contrast. Context sensitive help. Captions on the go.
+
+#### 2. Be Consistent
+Use familiar conventions and apply them consistently.
+- Consistent page architecture. Consistent buttons and controls.
+
+#### 3. Give Control
+Interfaces allow users to have control over their experience, including ability to interact with content in their preferred manner.
+- Allow zoom. Scrolling control (bad for keyboard navigation). Option to stop animation.
 
 
+#### 4. Offer Choice
+Offer various options for users to complete tasks, particularly complex and non standard ones.
+- Alternative data presentation (i.e infographics). Alternative list content view e.g grid vs list layout.
 
+#### 5. Prioritize Content
+Organize layout and content in a way that prioritizes core tasks, features and information. Help users to focus on the most important elements.
+
+#### 6. Add Value
+Evaluate feature usefulness and how they enhance user experience for various individuals.
+
+##### Resources:
+- https://inclusivedesignprinciples.org/
+
+-------------------------
+
+### Inclusive Components
+
+Currently reading the book [Inclusive Components](http://book.inclusive-components.design/) by Hayden and will populate my learnings here.
+
+#### Toggle Buttons
+Examples: on/off, play/pause, active/inactive
+
+##### Checklist
+- Use checkboxes or radio buttons as on/off toggle switches, as long as you are confident that the user will not mistake them for input fields for submitting data.
+- Use button elements, not links, with aria-pressed or aria-checked attributes.
+- Don’t change label and state together.
+- You can use aria-labelledby to provide unique labels for visual "on" and "off" text (or similar) when necessary. 
+- Ensure that the contrast between the button's text and background color meets WCAG 2.0 standards
 
 
 
