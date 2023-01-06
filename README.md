@@ -243,6 +243,51 @@ Examples: on/off, play/pause, active/inactive
 - Ensure that the contrast between the button's text and background color meets WCAG 2.0 standards
 
 
+## Architecture
+### Scalability
+Two areas to focus on with scalability:
+- Scaling for user growth.
+- Scaling the application.
+
+#### Scaling for user growth
+
+1. **Optimize Performane (Visit the [Performance](#performance) section for more)**
+This can include:
+- CDN: Use a Content Delivery Network to deliver your static assets. Helps reduce load on your servers and improves application speed.
+- Caching: Reduces the number of requests that need to be made to the server.
+- Rendering: Optimize your applications rendering. Depending on your application, consider Server Side Rendering (SSR) to improve initial load time.
+- Requests: Reducing the number of network requests being made.
+
+2. **Monitoring and Logging**
+
+Provides insights into performance and behavior of your application. 
+
+Monitoring and logging help in identifying bottlenecks, detecting and diagnosing errors, monitoring resource usage.
+
+3. **Resilience (Check the [Resilience](#resilience) section for more)**
+
+A resilient frontend can help ensure a functioning app in the event of failures that may be caused due to increase in traffic. 
+
+-------------------------
+
+#### Scaling the application
+
+1. **Modular Design**
+
+Smaller, independent and self-contained modules can be developed and maintained independently. Makes it easier to add new features and make changes.
+
+2. **Testing**
+
+Testing helps to ensure your application is stable and reliable. There is more confidence to refactor with solid tests in place.
+
+3. **Code Quality**
+
+High quality code is generally easier to understand, maintain and modify. 
+
+-------------------------
+
+
+
 
 
 
