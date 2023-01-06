@@ -237,9 +237,13 @@ Examples: on/off, play/pause, active/inactive
 
 ##### Checklist
 - Use checkboxes or radio buttons as on/off toggle switches, as long as you are confident that the user will not mistake them for input fields for submitting data.
+
 - Use button elements, not links, with aria-pressed or aria-checked attributes.
+
 - Don’t change label and state together.
+
 - You can use aria-labelledby to provide unique labels for visual "on" and "off" text (or similar) when necessary. 
+
 - Ensure that the contrast between the button's text and background color meets WCAG 2.0 standards
 
 
@@ -287,7 +291,72 @@ High quality code is generally easier to understand, maintain and modify.
 -------------------------
 
 
+### Performance
+#### 1. Optimize your loading sequence
+- Prioritize loading of above the fold content.
 
+- Defer the loading on non-critical resources.
 
+- Load third party scripts (ads, social sharing buttons, analytics & metrics, widgets, trackers, video player embeds, helper libraries etc ) efficiently.
 
+- Understand Key Metrics i.e First Input Delay (FID), First Contentful Paint (FCP), Cumulative Layout Shift (CLS), Largest Contentful Paint (LCP) etc what resources are needed for each and their optimal order e.g
+  - **Time To First Byte (TTFB)** and **First Contentful Paint (FCP)** help diagnose **Largest Contentful Paint (LCP)** issues.
+  
+  - **Total Blocking Time (TBT)** and **Time To Interactive (TTI)** help diagnose **First Input Delay (FID)** issues.
+  
+  - Time To First Byte (TTFB) precedes First Contentful Paint (FCP) and Largest Contentful Paint (LCP).
+  
+  - **First Contentful Paint (FCP)** precedes **Largest Contentful Paint (LCP)**.
+  
+  - **First Contentful Paint (FCP)** and **Time To Interactive (TTI)** impact **First Input Delay (FID)**.
+  
+- Optimize size and number of resources.
 
+- Understand when resources recommendations can become a constraint i.e fallback fonts improve FCP but if they cause jumping fonts it affects CLS
+
+- Server Side Rendering (SSR) - considering trade offs.
+
+- [Web Vitals Patterns](https://web.dev/patterns/web-vitals-patterns/) (UX Patterns optimized for Core Web Vitals)
+
+-------------------------
+
+#### 2. Loading Third Party Javascript Efficiently
+a. **Use async or defer.** 
+
+Applicable to: non-critical scripts.
+- Use async if it’s important to have the script run earlier in the loading process i.e analytics. 
+- Use defer for less critical resources i.e below the fold video player.
+
+b. **Establish early connections to required origins using resource hints.**
+
+Applicable to: Critical scripts, fonts, CSS, images from third party CDNs.
+Initiates connections early in the life cycle.
+- Dns-prefetch performs DNS lookup early, reducing latency.
+- Preconnect performs TCP round trips and handles TLS negotiations.
+
+c. **Self-host third party scripts.**
+
+Applicable to: Javascript files, fonts
+
+Reduce DNS or round-trip times. Improve HTTP caching headers.
+
+Caveats:
+- Scripts can go out of date.
+- Scripts won’t get automatic updates due to API change.
+
+d. **Lazy Load Below The Fold Third Party Resources.**
+
+Applicable to: Embeds such as YouTube, Maps, Advertisements and Social Media.
+Example: Serving an ad in the footer only when a user scrolls down the page.
+
+- Use service workers to cache scripts where possible.
+
+e. **Follow the ideal loading sequence.**
+
+-------------------------
+
+#### 3. Speed up Javascript Execution
+
+#### 4. Optimize Images
+
+#### 5. Fonts Best Practices
