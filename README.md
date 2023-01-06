@@ -360,3 +360,111 @@ e. **Follow the ideal loading sequence.**
 #### 4. Optimize Images
 
 #### 5. Fonts Best Practices
+
+## UI/UX
+### UX Audit
+#### Blank State
+
+What the user sees when they first login/launch the application.
+
+Questions to strive to provide a solid answer to:
+- What is this?
+- Does it look credible?
+- Does it look valuable?
+
+#### Working State
+
+What the users interact with during the normal course of use.
+
+Questions to ask on different levels:
+1. **Predictability**
+- Are all icons used commonly and universally understood?
+- Are calls to action explicit and clear?
+- Do things that look the same, act the same?
+- Are interactive elements presented to look like they are interactive?
+
+2. **Consistency**
+- Are buttons and controls placed consistently throughout the application?
+- Does the UI respond to user actions consistently?
+- Are fonts, images, graphics + color schemes the same at every interaction point?
+
+3. **Progression**
+- Only necessary or requested information is shown at any given time.
+- Do interaction sequences progress naturally from simple to complex?
+- Does the initial screen display only the core features needed first?
+- Is the default level of content and interactivity simple?
+- Are nav menus and toolbars relevant to the task at hand?
+
+4. **Natural Constraints**
+- The system + its UI should be designed to minimize potential user errors.
+- Are rules and instructions obvious? Do users know what to do?
+- Are actions simple or complex? Are instructions needed? If yes, one upfront step by step.
+- Are things users should not do removed from the screen?
+- Do constraints guide users to the next appropriate action?
+
+5. **Visibility, Hierarchy + Visual Clarity**
+- Are functions that are functionally/logically related grouped together visually?
+- Is the information presented in the order of importance to the user? Does visual hierarchy reflect where they need to go first/next?
+- Is the color scheme used consistently across the application?
+- Is color use functional?(good) or merely decorative?(bad) Does the functionality of this app rely on color? How does that affect colorblind users?
+- Are the fonts used easy to read on various screen sizes?
+
+6. **Flexibility**
+- Does the UI support both novices and experts?
+- Does the flow of information between screens match the flow of work the user is trying to accomplish?
+- Is the means of navigation appropriate for all the apps intended users?
+- Is the directional flow + visual hierarchy of info familiar to users?
+- Are there multiple means  of navigation? And if there aren’t, should there be?
+
+7. **Feedback**
+- Is warning feedback given when actions are incorrect, likely to cause an error or when a user’s action is potentially destructive?
+- Does confirmation feedback appear when data has been changed, saved or sent successfully/unsuccessfully?
+- Are feedback messages written in plain language that precisely indicates the problem/solution?
+- Is feedback provided when users have to wait for a process? Is time and progress shown?
+- Is the length of time between user action + on screen feedback short? (less than 0.1 seconds)
+
+
+#### Error State
+
+What users see when something goes wrong.
+
+- Are error messages clearly visible and impossible to miss?
+- Do error messages clearly communicate what’s happening + describe how the user can fix it?
+- Is the error message specific as to what action or piece of info causes the error?
+- If there are rules, constraints or limitations on data entry, are they clearly exposed + explained?
+- Does the app, site or system reduce the work of correcting that error?
+
+#### Credit for the above: https://learn.givegoodux.com/p/simple-way-to-conduct-ux-audit
+
+-------------------------
+
+### UX Checklists
+#### 1. Content
+a. Text Content
+- Language is plain, simple and clear.
+- Content is written with common language that users easily understand.
+- Terms, language and tone used are consistent throughout the site.
+- Language, terminology and tone used is understood by the target audience.
+- Content is useful and up-to-date.
+- Titles and Headings clearly describe the content of the page.
+- Headings precede related paragraphs.
+- Links in text are contextually related to what the user is currently doing or reading.
+- Lists are used for related sub-points or sub-navigation links.
+- All sentences, paragraphs, titles and headlines are left-aligned.
+- Content is scannable — short paragraphs, descriptive headings, lists and images.
+- There is adequate contrast between the text content and background.
+- Visual content (e.g. infographic, chart) is used to illustrate complex concepts.
+- Separate ideas are kept in separate sentences and paragraphs.
+- Full words are used instead of cryptic abbreviations.
+- Uppercase words are used only for labels or acronyms.
+- Acronyms (e.g. UX) are used sparingly.
+
+b. Non Text Content
+- Alt-text exists for all non-text material.
+- All multimedia content has an alternative (e.g. text content).
+- Icons are real-world metaphors if possible (e.g. credit card symbols at checkout).
+- Audio or video doesn’t start automatically, unless the user expects it.
+- Users can control the speed of presentation (Start, Pause, etc.).
+
+
+
