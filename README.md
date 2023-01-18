@@ -532,3 +532,21 @@ c. Workflow
 - Workflows with multiple steps include a persistent progress indicator.
 - Similar operations and tasks are presented and performed in similar ways.
 
+#### 5. Interaction
+a. General
+- Calls to action (e.g. Register, Add, Submit) are clearly labeled and appear clickable.
+- Users have control over interactive content, experiences or workflows.
+- The UI (and all buttons or controls) responds consistently to user actions in terms of visual display, appropriate context and data functionality.
+- Frequently used features are readily available.
+- Standard browser functions (e.g. Back, Forward, Copy, Paste) are supported.
+
+b. Controls
+- Buttons or other controls are placed consistently in every screen/page.
+- Interactive elements are not abstracted (e.g. buttons clearly look like buttons).
+- Primary, secondary and tertiary controls are visually distinct from one another.
+
+c. Links
+- There are no broken links.
+- Link text is descriptive; there are no “click here” links.
+- Text links are visually distinct from other text content.
+- Important links aren’t placed in moving or animated features e.g rotating carousels
