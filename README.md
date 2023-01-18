@@ -508,3 +508,27 @@ a. General
 - Frequently used tasks are readily available and well supported (e.g. shortcuts).
 - Visual metaphors used will be understood by both casual and expert users.
 
+#### 4. Navigation
+a. General
+- Navigation, page titling and breadcrumbs tell the user where she is, how she got here and where she can go.
+- The current location is clearly indicated (e.g. breadcrumb, highlighted menu item).
+- Navigation location and styling is consistent on every page.
+- Navigation menus are persistent (on every screen) and consistent (items don’t disappear/reappear).
+- Navigation labels are clear and obvious, readily understood by the target audience.
+- Navigation structure addresses common user goals.
+- Site uses friendly URLs that are descriptive and understandable.
+
+b. Search
+- Search is available on every page, not just the homepage.
+- Search box is wide enough so that users can see what they’ve typed.
+- Search is always the form itself, not a link to a form.
+- Search results are relevant, comprehensive, precise, and well displayed.
+- Search results do not return broken links.
+
+c. Workflow
+- All primary onscreen content is related to the user’s current task.
+- The flow of content matches the flow of the work the user is trying to accomplish.
+- Workflows with multiple steps include an overview of those steps.
+- Workflows with multiple steps include a persistent progress indicator.
+- Similar operations and tasks are presented and performed in similar ways.
+
