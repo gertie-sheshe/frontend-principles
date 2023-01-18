@@ -467,7 +467,7 @@ b. Non Text Content
 - Users can control the speed of presentation (Start, Pause, etc.).
 
 #### 2. Labeling
-a. General Labela
+a. General Labels
 - Label terms are familiar to the intended user and are not system-oriented terms.
 - Labeling describes value when possible (e.g. “Free Trial” vs. “Register”).
 - Language is consistent across label types (e.g. verb/noun, tense, tone, word count).
@@ -494,5 +494,17 @@ e. Tooltip Labels(icons)
 - Tooltip icons are visually distinct from content and/or data.
 - Tooltip icons have less color and contrast than the content they describe.
 
-
+#### 3. Presentation
+a. General
+- Most common devices, browsers and screen resolutions are supported.
+- There is no horizontal scrolling on any device, browser or screen resolution.
+- Page layouts are consistent across the whole website.
+- The order of information matches user expectations.
+- Modal or pop-up windows are used only when strict focus is necessary for the user.
+- There is no distracting blinking, flashing, or animation.
+- Users can control layout and text size via the browser.
+- Users are adequately supported according to their level of expertise (e.g. shortcuts to forms for expert users, wizards for novice users).
+- Visual styles are consistent throughout the application or site.
+- Frequently used tasks are readily available and well supported (e.g. shortcuts).
+- Visual metaphors used will be understood by both casual and expert users.
 
