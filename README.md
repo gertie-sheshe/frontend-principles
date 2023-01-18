@@ -466,5 +466,33 @@ b. Non Text Content
 - Audio or video doesn’t start automatically, unless the user expects it.
 - Users can control the speed of presentation (Start, Pause, etc.).
 
+#### 2. Labeling
+a. General Labela
+- Label terms are familiar to the intended user and are not system-oriented terms.
+- Labeling describes value when possible (e.g. “Free Trial” vs. “Register”).
+- Language is consistent across label types (e.g. verb/noun, tense, tone, word count).
+- Full words are used instead of cryptic abbreviations.
+- Labels are visually distinct from content and/or data.
+
+b. Page Title
+- Each page title exactly matches the wording of the related navigation menu link.
+- Each page title exactly matches the wording of the related breadcrumb link.
+- Each page title gives the user a clear idea of the page’s content and purpose.
+
+c. Breadcrumbs
+- Breadcrumb paths match established navigation paths.
+- Every breadcrumb has a counterpart in a navigation menu.
+- The full navigation path is shown in the breadcrumb (e.g. “Home > Services > Annual
+Reports > File an Annual Report” instead of “Home > File an Annual Report”).
+
+d. Form and Table Labels
+- Table and Form labels have less color and contrast than the content they describe
+- Each form and table label is in close proximity to the item it describes.
+
+e. Tooltip Labels(icons)
+- Tooltip icons are universally recognizable (e.g. “?”).
+- Tooltip icons are visually distinct from content and/or data.
+- Tooltip icons have less color and contrast than the content they describe.
+
 
 
