@@ -550,3 +550,24 @@ c. Links
 - Link text is descriptive; there are no “click here” links.
 - Text links are visually distinct from other text content.
 - Important links aren’t placed in moving or animated features e.g rotating carousels
+
+#### 6. Feedback
+a. Confirmation
+- The UI responds to a user’s actions or requests visually.
+- The UI provides feedback to let the user know his/her request is being processed.
+- Messages and alerts appear consistently, in the same location and visual style.
+- Confirmation is required when an action is difficult or impossible to undo.
+- Alert messages are visually distinct, easily distinguished from screen content or other interactive elements.
+
+b. Instruction
+- Instructions specific to a particular step are given at the start of that step.
+- Instructions specific to the overall process are given at the start of the process.
+- The user always knows what to do first/next.
+
+c. Errors
+- Error messages are concise, written in easy to understand language.
+- Users are able to easily recover (i.e. not have to start again) from errors.
+- Errors are clear, visually distinct from labels/data and appear in an appropriate location.
+
+
+
