@@ -590,6 +590,22 @@ d. Fonts
 - Font styles, sizes and weights establish and reinforce the hierarchy of content.
 - Font size and weight is used to differentiate between content types (e.g. Headings, subheadings, paragraphs).
 
+#### 8. Forms
+a. General
+- Only absolutely necessary questions are asked in forms.
+- Complex processes are broken up into easily understood steps and sections.
+- For multi-step workflows, a progress indicator is present with numbers or stages.
+
+b. Input
+- Required and optional form fields are clearly indicated.
+- Fields are labeled with common terms, e.g. Name, Address
+- Help and instructions are provided where necessary, in context with particular fields or sections.
+
+c. Validation/Submission
+- Form field error messages are displayed next to the related input field.
+- Form field error messages include suggestions for correcting the error.
+
+
 
 
 
