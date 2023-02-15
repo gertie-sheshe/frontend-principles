@@ -569,5 +569,27 @@ c. Errors
 - Users are able to easily recover (i.e. not have to start again) from errors.
 - Errors are clear, visually distinct from labels/data and appear in an appropriate location.
 
+#### 7. Visual Hierarchy
+a. General
+- Similar types of information are presented in similar, consistent ways.
+- The visual hierarchy on the screen reflects the user’s information priority.
+
+b. Color
+- The color scheme is used consistently throughout the application or web site.
+- Colors are not oversaturated and don’t vibrate or fatigue the eye.
+- Colors help establish and reinforce the hierarchy of content and interactive elements.
+
+c. Contrast
+- Contrast is the primary mechanism for establishing visual priority/hierarchy.
+- Contrast is the primary mechanism for visually separating content from controls.
+- Contrast is the primary mechanism used to separate labels from the content or data they describe.
+- Foreground elements (content and controls) are easily distinguished from the background.
+
+d. Fonts
+- Font styles, sizes and weights are used consistently throughout every screen.
+- Font styles, sizes and weights establish and reinforce the hierarchy of content.
+- Font size and weight is used to differentiate between content types (e.g. Headings, subheadings, paragraphs).
+
+
 
 
